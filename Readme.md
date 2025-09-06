@@ -1,1 +1,1 @@
-**Digitally-Controlled-Analog-EQ for Immersive Bus Processing**
+**Digitally-Controlled-Analog-EQ for Bus Processing in Dolby Atmos**
