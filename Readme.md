@@ -1,6 +1,6 @@
  **Digitally-Controlled Analog EQ for Bus Processing in Dolby Atmos**
 
-This was a project completed for my Final Year Project, which demonstrates a unique and natural way to integrate analog hardware into multi-channel workflows through the use of digital control. It also includes an algorithim for manipulating effects processing in the spatial domain with three potentiometers, simplifying the UI massively from other products on the market.
+This was my Final Year Project, which demonstrates a unique and natural way to integrate analog hardware into multi-channel workflows through the use of digital control. It also includes an algorithim for manipulating effects processing in the spatial domain with three potentiometers, simplifying the UI massively from other products on the market.
 
 **System Overview**
 
