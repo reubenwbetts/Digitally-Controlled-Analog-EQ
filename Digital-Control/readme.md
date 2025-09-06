@@ -12,6 +12,7 @@ A final consideration was that due to propogation delay from the ZCD circuit and
 
 <p align=center> ZCD circuit being fed a 20kHz sine wave (output was inverted due to not having the correct logic gates on hand) 
 
-<p align=center> <img width="642" height="380" alt="image" src="https://github.com/user-attachments/assets/5fef43b5-8d66-4d56-acda-c0c5558d90e0" />
+<p align=center> <img width="818" height="305" alt="image" src="https://github.com/user-attachments/assets/1d5cb571-03b9-4733-be0b-ec90b0cdb929" />
 
-<p align=center> System diagram for a single channel
+
+<p align=center> Signal flow diagram of the ZCD system
