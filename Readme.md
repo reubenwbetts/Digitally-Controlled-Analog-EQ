@@ -9,10 +9,10 @@ Per-channel, the system comprises of an analog EQ, whose paramters are contolled
 The microcontroller reads a set of physical potentiometers (low shelf gain, low shelf frequency etc..) and then proceses and passes these values to the digipots over an SPI bus, allowing the microcontroller to translate a single input, such as input gain to 12 channels simultaneously. The AD5290's are able to be configured in daisy chain mode, which means all of them can be controlled off of a single, three-wrie SPI bus (CS, SCK, MOSI). The only requirement here is that all digipots must be updated simultaneusly, which leads to a large amount of identical data to be passed thorugh every time a single parameter is changed. 
 
 PCB layouts, Spice Sims, Code and a write-up for each section are availabe in their respective folders:
-Digital Control 
-EQ-Channel
-Mounting Board
-Panning Algorithm
+- Digital Control 
+- EQ-Channel
+- Mounting Board
+- Panning Algorithm
 
 
 **EQ Circuit**
