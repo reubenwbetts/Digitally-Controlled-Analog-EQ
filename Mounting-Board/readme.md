@@ -1,1 +1,1 @@
-
+When this project started I was using EasyEDA, which did not include gerber export. After this project, I decided to move to Kicad which meant the mounting board PCB has been uploaded as a set of gerber files. All this board does is connect different though-hole sockets together (and a simple 5v generator with a regulator), so a schematic was not needed. 
