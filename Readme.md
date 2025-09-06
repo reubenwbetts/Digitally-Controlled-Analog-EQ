@@ -15,8 +15,6 @@ PCB layouts, Spice Sims, Code and a write-up for each section are availabe in th
 - Panning Algorithm
 
 
-**EQ Circuit**
-
 
 
 
