@@ -20,7 +20,7 @@ The code is structured as so:
 - Distribute the filtered signal to the SPI TXBuffer.
 - Compare this TXBuffer to the previous buffer created and if difffernt, update the digipots.
 
-
+**THIS CODE IS SLOW, ANALOGREAD AND GENERAL ARDUINO LIBRARIES ADD A MASSIVE OVERHEAD, BUT IT WORKS AS A PROOF-OF-CONCEPT**
 
 
         
