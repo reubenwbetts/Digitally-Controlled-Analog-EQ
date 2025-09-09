@@ -6,10 +6,10 @@ In this example, the Teensy reads in a set of 8 inputs, and distributes them to 
 - Input 2 (High Shelf Frequency) - Digipot 11 + 10
 - Input 3 (High Mid Bell Gain) - Digipot 9 
 - Input 4 (High Mid Bell Frequency) - Digipot 8 + 7
-- Input 1 (Low Mid Bell Gain) - Digipot 6 
-- Input 2 (Low Mid Bell Frequency) - Digipot 5 + 4
-- Input 1 (Low Shelf Gain) - Digipot 3 
-- Input 2 (Low Shelf Frequency) - Digipot 2 + 1
+- Input 5 (Low Mid Bell Gain) - Digipot 6 
+- Input 6 (Low Mid Bell Frequency) - Digipot 5 + 4
+- Input 7 (Low Shelf Gain) - Digipot 3 
+- Input 8 (Low Shelf Frequency) - Digipot 2 + 1
 
 As the digipots are configured in daisy chain mode, the data on the SPI bus is pushed through the system. If N = TXBuffer's length in bytes (12 in this case), and the digipots are numbered based on their position on the physical bus (digipot 1 is the closest to the MCU/first in the chain) then by the time the transfer has finished, the first byte sent will end up in digipot N, the second byte N-1, then N-2 etc...
 
