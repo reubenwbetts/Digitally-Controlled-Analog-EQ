@@ -1,7 +1,5 @@
 #include <SPI.h>
 #include "one_pole_iir.h"
-#define CS_PIN 10
-
 
 uint8_t input_pot_values[8] = {   };
 uint8_t digipot_values_past[12] = {   };
@@ -17,29 +15,22 @@ volatile bool spiBusy = false;
 
 void spiFinished(EventResponderRef event) {
   spiBusy = false;  
-  digitalWrite(CS_PIN, HIGH); // mark DMA transfer as complete
+  digitalWriteFast(SS, HIGH);
 }
 
-
-
 void setup() {
-
-  // set the slaveSelectPin as an output:
   Serial.begin(9600);
-  pinMode(CS_PIN, OUTPUT);
-  digitalWrite(CS_PIN, HIGH);
-
+  // set the slaveSelectPin as an output:
+  pinMode(SS, OUTPUT);
+  digitalWriteFast(SS, HIGH);
   // initialize SPI:
   SPI.begin();
-  SPI.beginTransaction(SPISettings(50000, MSBFIRST, SPI_MODE0));
- 
+  SPI.beginTransaction(SPISettings(2000000, MSBFIRST, SPI_MODE0));
   spiDone.attachImmediate(spiFinished);
-  
   // assign all pot pins as inputs
   for (int i = 0; i < 8; i++){
     pinMode(input_pots[i], INPUT);
   }
-
 }
 
 void loop() {
@@ -76,7 +67,7 @@ void loop() {
 
   // transmit over DMA if any values have changed 
   if (!spiBusy && pot_changed == 1){
-    digitalWrite(CS_PIN, LOW);
+    digitalWriteFast(SS, LOW);
     spiBusy = true;
     SPI.transfer(digipot_values, 0, 12, spiDone);
   }
