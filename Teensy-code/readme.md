@@ -16,11 +16,10 @@ As the digipots are configured in daisy chain mode, the data on the SPI bus is p
 The code is structured as so:
 
 - Read in pots to an Array
-- Filter out any noise with a pair of IIR's (exponential moving averages)
+- Filter out any noise with a pair of fixed-point IIR's 
 - Distribute the filtered signal to the SPI TXBuffer.
 - Compare this TXBuffer to the previous buffer created and if difffernt, update the digipots.
 
-**THIS CODE IS SLOW, ANALOGREAD AND GENERAL ARDUINO LIBRARIES ADD A MASSIVE OVERHEAD, BUT IT WORKS AS A PROOF-OF-CONCEPT**
-
+**THIS CODE IS SLOW, ANALOGREAD ADDS A MASSIVE OVERHEAD, BUT IT WORKS AS A PROOF-OF-CONCEPT**
 
         
