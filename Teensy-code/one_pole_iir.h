@@ -4,9 +4,10 @@ class one_pole_iir
 {
   public:
 
-  uint8_t filter_method (uint8_t x, float damp_factor);
+  uint8_t filter_method (uint8_t x, uint16_t damp_factor);
 
   private:
 
-  float y_prev;
+  uint16_t y_prev;
 };
+
