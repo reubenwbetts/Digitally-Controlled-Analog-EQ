@@ -8,5 +8,5 @@ All this board does is connect different though-hole sockets together (and a sim
 
 <p align=center> <img width="543" height="724" alt="image" src="https://github.com/user-attachments/assets/ad6d806b-5a7a-4e0d-b24e-fd6783661d11" />
 
-<p align=center> Mounting board with EQ, Teeensy and sigipot boards mounted.
+<p align=center> Mounting board with EQ, Teeensy and digipot boards mounted.
 
