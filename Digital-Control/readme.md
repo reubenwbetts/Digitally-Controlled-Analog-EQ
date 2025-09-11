@@ -8,6 +8,10 @@ The AD5290's required a low CS input to be written to their input buffer, and a 
 
 A final consideration was that due to propogation delay from the ZCD circuit and the two logic gates (around 70ns), the CS update may end up taking place outside of the zero-crossing. To fix this, a bessel filter was also implemented to delay the audio signal (a matlab script was created to calculate the values), re-syncing the two waveforms. However, in practise the propogation delay was insignificant enough to warrant using it.
 
+<p align=center> <img width="507" height="648" alt="image" src="https://github.com/user-attachments/assets/6cb2f503-6b6f-4595-93fd-a5c0ba5b7cd5" />
+
+<p align=center> Assembled digipot board, with 4 digipots + ZCD circuits.
+
 <p align=center> <img width="292" height="388" alt="image" src="https://github.com/user-attachments/assets/a804206d-5166-410f-8459-61464e5f0e2d" />
 
 <p align=center> ZCD circuit being fed a 20kHz sine wave (output was inverted due to not having the correct logic gates on hand) 
