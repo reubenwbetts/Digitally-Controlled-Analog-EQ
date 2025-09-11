@@ -16,7 +16,7 @@ PCB layouts, Spice Sims, Code and a write-up for each section are availabe in th
 
 <p align=center> <img width="539" height="724" alt="image" src="https://github.com/user-attachments/assets/812e1da3-4486-4c17-9d67-2a7fb309edcc" />
 
-<p align=center> Later version, with the mounting board and a pair of EQ channels and 12 digipots.  
+<p align=center> Later version, with the mounting board, a pair of EQ channels and 12 digipots.  
 
 
 
