@@ -18,3 +18,6 @@ The EQ stages are based on the wein-bridge topology which function as so:
 
 This is the exact method for the bell stages, however the shelves are created by omitting one half of the wein-bridge (resulting in either an LPF or a HPF). 
 
+<p align=center><img width="1088" height="1450" alt="image" src="https://github.com/user-attachments/assets/ad335212-9b15-4e1d-a96a-921051ad0301" />
+
+<p align=center> A fully assembled EQ board.
