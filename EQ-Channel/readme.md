@@ -22,4 +22,4 @@ This is the exact method for the bell stages, however the shelves are created by
 
 <p align=center> A fully assembled EQ board.
 
-_This PCB design could definetely be improved, the return currents for the power rails are blocked by the power rails themselves, forcing the return currents to go through a very narrow spot_
+_This PCB design could definetely be improved, the return currents for the power rails are blocked by the power rails themselves, forcing the return currents to go through a very narrow spot._
