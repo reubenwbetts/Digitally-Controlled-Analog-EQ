@@ -10,7 +10,13 @@ The microcontroller reads a set of physical potentiometers (low shelf gain, low 
 
 PCB layouts, Spice Sims, Code and a write-up for each section are availabe in their respective folders.
 
+<p align=center> <img width="541" height="561" alt="image" src="https://github.com/user-attachments/assets/3527e708-1754-48f3-8a7e-a26cf42ed546" />
 
+<p align=center> Early version of the system, without the mounting board.
+
+<p align=center> <img width="539" height="724" alt="image" src="https://github.com/user-attachments/assets/812e1da3-4486-4c17-9d67-2a7fb309edcc" />
+
+<p align=center> Later version, with the mounting board and a pair of EQ channels and 12 digipots.  
 
 
 
